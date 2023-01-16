@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -pthread CMakeFiles/TestCmdLine.dir/test/tests.cpp.o CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o -o TestCmdLine  lib/libgtest_main.a lib/libgtest.a 
