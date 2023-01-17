@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vishva/learn/SS8_Assignment/cpp
+CMAKE_SOURCE_DIR = /home/vishva/learn/SS8Assgment/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vishva/learn/SS8_Assignment/cpp/build
+CMAKE_BINARY_DIR = /home/vishva/learn/SS8Assgment/cpp/build
 
 # Include any dependencies generated for this target.
 include googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -72,16 +72,16 @@ include googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: /home/vishva/googletest/googlemock/src/gmock_main.cc
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: googletest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -MF CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/vishva/googletest/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -MF CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/vishva/googletest/googlemock/src/gmock_main.cc
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
@@ -93,19 +93,19 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libgmock_main.a"
-	cd /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libgmock_main.a"
+	cd /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_main.a
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/build
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/clean
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/vishva/learn/SS8_Assignment/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vishva/learn/SS8_Assignment/cpp /home/vishva/googletest/googlemock /home/vishva/learn/SS8_Assignment/cpp/build /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock /home/vishva/learn/SS8_Assignment/cpp/build/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vishva/learn/SS8Assgment/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vishva/learn/SS8Assgment/cpp /home/vishva/googletest/googlemock /home/vishva/learn/SS8Assgment/cpp/build /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock /home/vishva/learn/SS8Assgment/cpp/build/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/CmdLine.dir/src/ParseCmdLine.cpp.o: \
- /home/vishva/learn/SS8_Assignment/cpp/src/ParseCmdLine.cpp \
+ /home/vishva/learn/SS8Assgment/cpp/src/ParseCmdLine.cpp \
  /usr/include/stdc-predef.h \
- /home/vishva/learn/SS8_Assignment/cpp/src/../header/ParseCmdLine.h \
+ /home/vishva/learn/SS8Assgment/cpp/src/../header/ParseCmdLine.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

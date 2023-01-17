@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vishva/learn/SS8_Assignment/cpp
+CMAKE_SOURCE_DIR = /home/vishva/learn/SS8Assgment/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vishva/learn/SS8_Assignment/cpp/build
+CMAKE_BINARY_DIR = /home/vishva/learn/SS8Assgment/cpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TestCmdLine.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/TestCmdLine.dir/flags.make
 CMakeFiles/TestCmdLine.dir/test/tests.cpp.o: CMakeFiles/TestCmdLine.dir/flags.make
 CMakeFiles/TestCmdLine.dir/test/tests.cpp.o: ../test/tests.cpp
 CMakeFiles/TestCmdLine.dir/test/tests.cpp.o: CMakeFiles/TestCmdLine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestCmdLine.dir/test/tests.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/test/tests.cpp.o -MF CMakeFiles/TestCmdLine.dir/test/tests.cpp.o.d -o CMakeFiles/TestCmdLine.dir/test/tests.cpp.o -c /home/vishva/learn/SS8_Assignment/cpp/test/tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestCmdLine.dir/test/tests.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/test/tests.cpp.o -MF CMakeFiles/TestCmdLine.dir/test/tests.cpp.o.d -o CMakeFiles/TestCmdLine.dir/test/tests.cpp.o -c /home/vishva/learn/SS8Assgment/cpp/test/tests.cpp
 
 CMakeFiles/TestCmdLine.dir/test/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmdLine.dir/test/tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8_Assignment/cpp/test/tests.cpp > CMakeFiles/TestCmdLine.dir/test/tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8Assgment/cpp/test/tests.cpp > CMakeFiles/TestCmdLine.dir/test/tests.cpp.i
 
 CMakeFiles/TestCmdLine.dir/test/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmdLine.dir/test/tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8_Assignment/cpp/test/tests.cpp -o CMakeFiles/TestCmdLine.dir/test/tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8Assgment/cpp/test/tests.cpp -o CMakeFiles/TestCmdLine.dir/test/tests.cpp.s
 
 CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o: CMakeFiles/TestCmdLine.dir/flags.make
 CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o: ../src/ParseCmdLine.cpp
 CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o: CMakeFiles/TestCmdLine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o -c /home/vishva/learn/SS8_Assignment/cpp/src/ParseCmdLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.o -c /home/vishva/learn/SS8Assgment/cpp/src/ParseCmdLine.cpp
 
 CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8_Assignment/cpp/src/ParseCmdLine.cpp > CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8Assgment/cpp/src/ParseCmdLine.cpp > CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.i
 
 CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8_Assignment/cpp/src/ParseCmdLine.cpp -o CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8Assgment/cpp/src/ParseCmdLine.cpp -o CMakeFiles/TestCmdLine.dir/src/ParseCmdLine.cpp.s
 
 CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o: CMakeFiles/TestCmdLine.dir/flags.make
 CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o: ../src/LinuxTerminal.cpp
 CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o: CMakeFiles/TestCmdLine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o -c /home/vishva/learn/SS8_Assignment/cpp/src/LinuxTerminal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.o -c /home/vishva/learn/SS8Assgment/cpp/src/LinuxTerminal.cpp
 
 CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8_Assignment/cpp/src/LinuxTerminal.cpp > CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8Assgment/cpp/src/LinuxTerminal.cpp > CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.i
 
 CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8_Assignment/cpp/src/LinuxTerminal.cpp -o CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8Assgment/cpp/src/LinuxTerminal.cpp -o CMakeFiles/TestCmdLine.dir/src/LinuxTerminal.cpp.s
 
 CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o: CMakeFiles/TestCmdLine.dir/flags.make
 CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o: ../src/Terminal.cpp
 CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o: CMakeFiles/TestCmdLine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o -c /home/vishva/learn/SS8_Assignment/cpp/src/Terminal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.o -c /home/vishva/learn/SS8Assgment/cpp/src/Terminal.cpp
 
 CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8_Assignment/cpp/src/Terminal.cpp > CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8Assgment/cpp/src/Terminal.cpp > CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.i
 
 CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8_Assignment/cpp/src/Terminal.cpp -o CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8Assgment/cpp/src/Terminal.cpp -o CMakeFiles/TestCmdLine.dir/src/Terminal.cpp.s
 
 CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o: CMakeFiles/TestCmdLine.dir/flags.make
 CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o: ../src/ChangeDirectory.cpp
 CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o: CMakeFiles/TestCmdLine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o -c /home/vishva/learn/SS8_Assignment/cpp/src/ChangeDirectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o -MF CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o.d -o CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.o -c /home/vishva/learn/SS8Assgment/cpp/src/ChangeDirectory.cpp
 
 CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8_Assignment/cpp/src/ChangeDirectory.cpp > CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishva/learn/SS8Assgment/cpp/src/ChangeDirectory.cpp > CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.i
 
 CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8_Assignment/cpp/src/ChangeDirectory.cpp -o CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishva/learn/SS8Assgment/cpp/src/ChangeDirectory.cpp -o CMakeFiles/TestCmdLine.dir/src/ChangeDirectory.cpp.s
 
 # Object files for target TestCmdLine
 TestCmdLine_OBJECTS = \
@@ -159,7 +159,7 @@ TestCmdLine: CMakeFiles/TestCmdLine.dir/build.make
 TestCmdLine: lib/libgtest_main.a
 TestCmdLine: lib/libgtest.a
 TestCmdLine: CMakeFiles/TestCmdLine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TestCmdLine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TestCmdLine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestCmdLine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,6 +171,6 @@ CMakeFiles/TestCmdLine.dir/clean:
 .PHONY : CMakeFiles/TestCmdLine.dir/clean
 
 CMakeFiles/TestCmdLine.dir/depend:
-	cd /home/vishva/learn/SS8_Assignment/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vishva/learn/SS8_Assignment/cpp /home/vishva/learn/SS8_Assignment/cpp /home/vishva/learn/SS8_Assignment/cpp/build /home/vishva/learn/SS8_Assignment/cpp/build /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles/TestCmdLine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vishva/learn/SS8Assgment/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vishva/learn/SS8Assgment/cpp /home/vishva/learn/SS8Assgment/cpp /home/vishva/learn/SS8Assgment/cpp/build /home/vishva/learn/SS8Assgment/cpp/build /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles/TestCmdLine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TestCmdLine.dir/depend
 

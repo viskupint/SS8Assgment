@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vishva/googletest/googletest/include -I/home/vishva/learn/SS8_Assignment/cpp/header
+CXX_INCLUDES = -I/home/vishva/googletest/googletest/include -I/home/vishva/learn/SS8Assgment/cpp/header
 
 CXX_FLAGS =  -std=c++14 -pthread
 

@@ -1,7 +1,7 @@
 CMakeFiles/CmdLine.dir/src/main.cpp.o: \
- /home/vishva/learn/SS8_Assignment/cpp/src/main.cpp \
+ /home/vishva/learn/SS8Assgment/cpp/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/vishva/learn/SS8_Assignment/cpp/src/../header/ParseCmdLine.h \
+ /home/vishva/learn/SS8Assgment/cpp/src/../header/ParseCmdLine.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -200,6 +200,6 @@ CMakeFiles/CmdLine.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /home/vishva/learn/SS8_Assignment/cpp/src/../header/LinuxTerminal.h \
- /home/vishva/learn/SS8_Assignment/cpp/src/../header/Terminal.h \
- /home/vishva/learn/SS8_Assignment/cpp/src/../header/ParseCmdLine.h
+ /home/vishva/learn/SS8Assgment/cpp/src/../header/LinuxTerminal.h \
+ /home/vishva/learn/SS8Assgment/cpp/src/../header/Terminal.h \
+ /home/vishva/learn/SS8Assgment/cpp/src/../header/ParseCmdLine.h

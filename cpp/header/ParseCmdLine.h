@@ -23,7 +23,12 @@ class CParseCmdLine
     virtual int GetArgumentCount() = 0;
     virtual bool ValidateCmdLineArguments()=0;
     virtual void InsertCmdLineArguments(vector<string> cmd) = 0;
-
+    virtual bool CheckAndRemoveExtraSlash() = 0;
+    virtual bool IsCurrentDirectory(string directory) =0 ;
+    virtual bool IsRootDirectory() = 0;
+    virtual bool IsPreviousDirectory(string directory) = 0;
+    virtual string ExecuteCommand() = 0;
+    
     
 
 };

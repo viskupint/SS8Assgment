@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vishva/learn/SS8_Assignment/cpp
+CMAKE_SOURCE_DIR = /home/vishva/learn/SS8Assgment/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vishva/learn/SS8_Assignment/cpp/build
+CMAKE_BINARY_DIR = /home/vishva/learn/SS8Assgment/cpp/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -136,14 +136,14 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest_main.dir/cle
 CMakeFiles/CmdLine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CmdLine.dir/build.make CMakeFiles/CmdLine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CmdLine.dir/build.make CMakeFiles/CmdLine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CmdLine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CmdLine"
 .PHONY : CMakeFiles/CmdLine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CmdLine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CmdLine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/CmdLine.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ CMakeFiles/TestCmdLine.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/
 CMakeFiles/TestCmdLine.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestCmdLine.dir/build.make CMakeFiles/TestCmdLine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestCmdLine.dir/build.make CMakeFiles/TestCmdLine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target TestCmdLine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target TestCmdLine"
 .PHONY : CMakeFiles/TestCmdLine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestCmdLine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestCmdLine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/TestCmdLine.dir/rule
 
 # Convenience name for target.
@@ -189,14 +189,14 @@ CMakeFiles/TestCmdLine.dir/clean:
 googletest/googlemock/CMakeFiles/gmock.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=13,14 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=13,14 "Built target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 0
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -216,14 +216,14 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMake
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=15,16 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=15,16 "Built target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 0
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -242,14 +242,14 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=17,18 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=17,18 "Built target gtest"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 0
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -268,14 +268,14 @@ googletest/googletest/CMakeFiles/gtest.dir/clean:
 googletest/googletest/CMakeFiles/gtest_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles --progress-num=19,20 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles --progress-num=19,20 "Built target gtest_main"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8_Assignment/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishva/learn/SS8Assgment/cpp/build/CMakeFiles 0
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
