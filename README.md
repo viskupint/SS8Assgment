@@ -35,20 +35,35 @@ Examples ('#' is a shell prompt in Unix):
 /abc/klm
 
 2.System Requirements
+
   a.) Ubuntu Linux
+  
   b.) c++ 14
+  
   c.) cmake
+  
   d.) Git
+  
   e.) GTest
+  
   
 3. Download the code from https://github.com/viskupint/SS8Assgment
 
 4. Edit the CMakeLists.txt from cpp folder and ensure the all path are correct based on environment setup to run the application without error.
+
 5. Build
+
     a. cmake ..
+    
     b. make
+    
 6. Run the application
+
     a. ./cmdLine mycd /abc/def/ klm
+    
 7. Run unit testing
+
     a. Add/edit the test cases in cpp/test/tests.cpp folder
+    
     b. ./TestCmdLine
+    
