@@ -51,7 +51,7 @@ Examples ('#' is a shell prompt in Unix):
 
 4. Edit the CMakeLists.txt from cpp folder and ensure the all path are correct based on environment setup to run the application without error.
 
-5. Build
+5. Build (Note: rmove the CMakeCache.txt file before start building the application)
 
     a. cmake ..
     
