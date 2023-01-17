@@ -63,18 +63,18 @@ bool CChangeDirectory::ValidateCmdLineArguments()
         newDir = args[2];
     }
     else{
-        cout<< " No ew pathh added in command line" << endl;
+        cout<< " No new path added in command line" << endl;
         return false;
     }
 
-     regex newPath("(/)*[a-zA-Z_][a-zA-Z_0-9\\-./]+");
+    //  regex newPath("(/)*[a-zA-Z_][a-zA-Z_0-9\\-./]+");
 
-    if (regex_match(newDir,newPath)){
-        return true;
-    }
-    else{
-        return false;
-    }
+    // if (regex_match(newDir,newPath)){
+    //     return true;
+    // }
+    // else{
+    //     return false;
+    // }
 
    
     return true;
@@ -194,20 +194,24 @@ string CChangeDirectory::ExecuteCommand()
 
     CheckAndRemoveExtraSlash();
 
-    if (!IsCurrentDirectory(args[2])){
+    if (IsCurrentDirectory(args[2])){
         return args[1];
     }
 
-    if (!IsRootDirectory()){
+    if (IsRootDirectory()){
         return "/";
     }
 
     string path;
+    SplitCurrentPath();
+
     if (IsPreviousDirectory(args[2])){
-        SplitCurrentPath();
-        
+                
+        if (currentPath.size()-1 == 0){
+            return "/";
+        }
         for (auto index=0; index < currentPath.size()-1; index++){
-            path += currentPath[index];
+            path += "/"+currentPath[index];
         }
 
         return path;
@@ -220,7 +224,7 @@ string CChangeDirectory::ExecuteCommand()
     for (auto index=0; index < newPath.size(); index++){
         if (IsCurrentDirectory(newPath[index])){
             for (auto index=0; index < currentPath.size(); index++){
-                path += currentPath[index];
+                path += "/"+currentPath[index];
             }
             return path;
         }
@@ -235,12 +239,30 @@ string CChangeDirectory::ExecuteCommand()
             
         }
         else {
-            currentPath.push_back(newPath[index]);
+            for (auto iter=0;iter < currentPath.size();iter++){
+                auto folder = currentPath[iter].find(newPath[index]); 
+                if ( folder != string::npos){
+                    path +="/"+newPath[index];
+                    break;
+                }
+                else{
+                                      
+                    currentPath.push_back(newPath[index]);
+                    break;
+                   
+                }
+            }
+            
+                    
         }
     }
 
+    if (!path.empty()){
+        return path;
+    }
+
     for (auto index=0; index < currentPath.size(); index++){
-        path += currentPath[index];
+        path += "/"+currentPath[index];
     }
     return path;
 }

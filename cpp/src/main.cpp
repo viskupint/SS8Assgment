@@ -10,7 +10,7 @@ int main(int argc, char **argv){
      unique_ptr<CParseCmdLine> cmdLine = terminal->CreateCmdLineInstance(argc,argv);
 
      if (cmdLine){
-        cout<< cmdLine->ExecuteCommand();
+        cout<< cmdLine->ExecuteCommand()<<endl;
         
      }
     return 0;
